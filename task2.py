@@ -14,3 +14,14 @@ elif(grade<50 and grade>=0):
     print("Fail")
 else:
     print("Invalid input")
+
+# #Loops & Number Patterns
+# #num from 1 to num
+num=int(input("enter a number -:"))
+for num in range(0,num,1):
+    print(num+1) 
+
+##num from num to 1 (in reverse order)
+num=int(input("enter a number -:"))
+for num in range(num,0,-1):
+    print(num)     
